@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LESS</title>
+    <link charset="utf-8" type="text/css" rel="stylesheet/less" href="css/index.less">
+</head>
+<body>
+<div class="box"></div>
+<script charset="UTF-8" type="text/javascript">
+    var less={
+        env:'development',
+        poll:1000
+    };
+</script>
+<script charset="utf-8" type="text/javascript" src="js/less-2.7.2.js"></script>
+<script charset="UTF-8" type="text/javascript">
+    less.watch();/*开启监听模式*/
+</script>
+</body>
+</html>
